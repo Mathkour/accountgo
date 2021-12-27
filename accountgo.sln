@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{0295DFAC-BF6E-46C0-A63D-FBE9AF3C04E5}"
 EndProject
@@ -32,6 +32,11 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleModule", "src\Modules\SampleModule\SampleModule.csproj", "{B296277A-C822-444E-8CFA-4CC4C1C1F737}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleNetStandard20", "test\SampleModules\SampleNetStandard20\SampleNetStandard20.csproj", "{B0AB6EA7-7D53-4457-9482-F0613F99E3BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database", "database", "{D9FAF776-FC40-4FDE-A4B0-9A468ED7B216}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\Backup\accountgo.backup = ..\..\..\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\Backup\accountgo.backup
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
