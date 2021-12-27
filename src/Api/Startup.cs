@@ -35,6 +35,8 @@ namespace Api
                         options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
                     }
                 );
+
+            //Shadi
             string connectionString = "Data Source=LAPTOP-L2RRNFBT\\SQLEXPRESS;Integrated Security=SSPI;Initial Catalog=accountgo;";
              // string connectionString = Configuration["Data:DevelopmentConnection:ConnectionString"];
              // These environment variables can be overriden from launchSettings.json.
